@@ -15,7 +15,7 @@ export default function Works() {
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
+      icon: "./assets/mobile.png",
       title: "Nippy Health (Mobile, React-Native)",
       desc: "Lorem Ipsum blablablablablablablablablablablabla.",
       img: "../../../public/assets/nippyApp.jpg",
