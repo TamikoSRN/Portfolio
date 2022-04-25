@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "./ContactMe.scss";
 
 export default function ContactMe() {
-  
   const [message, setMessage] = useState(false);
 
   const handleSubmit = (e) => {
@@ -21,7 +20,9 @@ export default function ContactMe() {
           <input type="text" placeholder="E-mail" />
           <textarea placeholder="Mesasage"></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thank you for contacting me, I will reply ASAP! ^^</span>}
+          {message && (
+            <span>Thank you for contacting me, I will reply ASAP! ^^</span>
+          )}
         </form>
       </div>
     </div>
